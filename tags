@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/d5bcb52b/
+BigGAN	The_Big_Sleep_Customized_NMKD_Public.py	/^class BigGAN(nn.Module):$/;"	c
+BigGANBatchNorm	The_Big_Sleep_Customized_NMKD_Public.py	/^class BigGANBatchNorm(nn.Module):$/;"	c
+BigGANConfig	The_Big_Sleep_Customized_NMKD_Public.py	/^class BigGANConfig(object):$/;"	c
+CONFIG_NAME	The_Big_Sleep_Customized_NMKD_Public.py	/^CONFIG_NAME = 'config.json'$/;"	v
+CUDA_version	The_Big_Sleep_Customized_NMKD_Public.py	/^CUDA_version = [s for s in subprocess.check_output(["nvcc", "--version"]).decode("UTF-8").split(/;"	v
+F	The_Big_Sleep_Customized_NMKD_Public.py	/^import torch.nn.functional as F$/;"	I
+GenBlock	The_Big_Sleep_Customized_NMKD_Public.py	/^class GenBlock(nn.Module):$/;"	c
+Generator	The_Big_Sleep_Customized_NMKD_Public.py	/^class Generator(nn.Module):$/;"	c
+PRETRAINED_CONFIG_ARCHIVE_MAP	The_Big_Sleep_Customized_NMKD_Public.py	/^PRETRAINED_CONFIG_ARCHIVE_MAP = {$/;"	v
+PRETRAINED_MODEL_ARCHIVE_MAP	The_Big_Sleep_Customized_NMKD_Public.py	/^PRETRAINED_MODEL_ARCHIVE_MAP = {$/;"	v
+PYTORCH_PRETRAINED_BIGGAN_CACHE	The_Big_Sleep_Customized_NMKD_Public.py	/^    PYTORCH_PRETRAINED_BIGGAN_CACHE = Path(os.getenv('PYTORCH_PRETRAINED_BIGGAN_CACHE',$/;"	v
+PYTORCH_PRETRAINED_BIGGAN_CACHE	The_Big_Sleep_Customized_NMKD_Public.py	/^    PYTORCH_PRETRAINED_BIGGAN_CACHE = os.getenv('PYTORCH_PRETRAINED_BIGGAN_CACHE',$/;"	v
+Pars	The_Big_Sleep_Customized_NMKD_Public.py	/^class Pars(torch.nn.Module):$/;"	c
+SelfAttn	The_Big_Sleep_Customized_NMKD_Public.py	/^class SelfAttn(nn.Module):$/;"	c
+TF	The_Big_Sleep_Customized_NMKD_Public.py	/^import torchvision.transforms.functional as TF$/;"	I
+WEIGHTS_NAME	The_Big_Sleep_Customized_NMKD_Public.py	/^WEIGHTS_NAME = 'pytorch_model.bin'$/;"	v
+__init__	The_Big_Sleep_Customized_NMKD_Public.py	/^    def __init__(self):$/;"	m	class:Pars
+__init__	The_Big_Sleep_Customized_NMKD_Public.py	/^    def __init__(self, config):$/;"	m	class:BigGAN
+__init__	The_Big_Sleep_Customized_NMKD_Public.py	/^    def __init__(self, config):$/;"	m	class:Generator
+__init__	The_Big_Sleep_Customized_NMKD_Public.py	/^    def __init__(self, in_channels, eps=1e-12):$/;"	m	class:SelfAttn
+__init__	The_Big_Sleep_Customized_NMKD_Public.py	/^    def __init__(self, in_size, out_size, condition_vector_dim, reduction_factor=4, up_sample=Fa/;"	m	class:GenBlock
+__init__	The_Big_Sleep_Customized_NMKD_Public.py	/^    def __init__(self, num_features, condition_vector_dim=None, n_stats=51, eps=1e-4, conditiona/;"	m	class:BigGANBatchNorm
+__init__	The_Big_Sleep_Customized_NMKD_Public.py	/^    def __init__(self,$/;"	m	class:BigGANConfig
+__repr__	The_Big_Sleep_Customized_NMKD_Public.py	/^    def __repr__(self):$/;"	m	class:BigGANConfig
+al	The_Big_Sleep_Customized_NMKD_Public.py	/^     al = (model(*lats(), 1).cpu()).numpy()$/;"	v
+al	The_Big_Sleep_Customized_NMKD_Public.py	/^  al = (model(*lats(), 1).cpu()).numpy()$/;"	v
+al	The_Big_Sleep_Customized_NMKD_Public.py	/^  al = model(*these, 1).cpu().numpy()$/;"	v
+al	The_Big_Sleep_Customized_NMKD_Public.py	/^  al = model(lats()[0], torch.zeros_like(lats()[1]), 1).cpu().numpy()$/;"	v
+al	The_Big_Sleep_Customized_NMKD_Public.py	/^  al = model(torch.zeros_like(lats()[0]).normal_(), lats()[1], 1).cpu().numpy()$/;"	v
+al	The_Big_Sleep_Customized_NMKD_Public.py	/^  al = nom((1 + model(*lats(), 1).cpu()) \/ 2).numpy()$/;"	v
+ascend_txt	The_Big_Sleep_Customized_NMKD_Public.py	/^def ascend_txt():$/;"	f
+cached_path	The_Big_Sleep_Customized_NMKD_Public.py	/^def cached_path(url_or_filename, cache_dir=None):$/;"	f
+card_padded	The_Big_Sleep_Customized_NMKD_Public.py	/^def card_padded(im, to_pad=3):$/;"	f
+channels	The_Big_Sleep_Customized_NMKD_Public.py	/^  sideX, sideY, channels = im_shape$/;"	v
+channels	The_Big_Sleep_Customized_NMKD_Public.py	/^sideX, sideY, channels = im_shape$/;"	v
+checkin	The_Big_Sleep_Customized_NMKD_Public.py	/^def checkin(loss):$/;"	f
+displ	The_Big_Sleep_Customized_NMKD_Public.py	/^def displ(img, pre_scaled=True):$/;"	f
+displSample	The_Big_Sleep_Customized_NMKD_Public.py	/^def displSample(img, path):$/;"	f
+displ_freq	The_Big_Sleep_Customized_NMKD_Public.py	/^displ_freq = 25 #@param{type:"number"}$/;"	v
+driveMountPath	The_Big_Sleep_Customized_NMKD_Public.py	/^driveMountPath = "\/content\/drive\/"$/;"	v
+drivePath	The_Big_Sleep_Customized_NMKD_Public.py	/^drivePath = os.path.join(driveMountPath, driveRelPath)$/;"	v
+driveRelPath	The_Big_Sleep_Customized_NMKD_Public.py	/^driveRelPath = "My Drive\/BigSleep\/" #@param{type:"string"}$/;"	v
+eps	The_Big_Sleep_Customized_NMKD_Public.py	/^    eps = 0$/;"	v
+eps	The_Big_Sleep_Customized_NMKD_Public.py	/^eps = 0$/;"	v
+filename_to_url	The_Big_Sleep_Customized_NMKD_Public.py	/^def filename_to_url(filename, cache_dir=None):$/;"	f
+folderName	The_Big_Sleep_Customized_NMKD_Public.py	/^  folderName = f"{prompt}-progress {nowStr}"$/;"	v
+folderName	The_Big_Sleep_Customized_NMKD_Public.py	/^  folderName = f"{safePromptInput} {sampleCount}x {nowStr}"$/;"	v
+forward	The_Big_Sleep_Customized_NMKD_Public.py	/^    def forward(self):$/;"	m	class:Pars
+forward	The_Big_Sleep_Customized_NMKD_Public.py	/^    def forward(self, cond_vector, truncation):$/;"	m	class:Generator
+forward	The_Big_Sleep_Customized_NMKD_Public.py	/^    def forward(self, x):$/;"	m	class:SelfAttn
+forward	The_Big_Sleep_Customized_NMKD_Public.py	/^    def forward(self, x, cond_vector, truncation):$/;"	m	class:GenBlock
+forward	The_Big_Sleep_Customized_NMKD_Public.py	/^    def forward(self, x, truncation, condition_vector=None):$/;"	m	class:BigGANBatchNorm
+forward	The_Big_Sleep_Customized_NMKD_Public.py	/^    def forward(self, z, class_label, truncation):$/;"	m	class:BigGAN
+from_dict	The_Big_Sleep_Customized_NMKD_Public.py	/^    def from_dict(cls, json_object):$/;"	m	class:BigGANConfig
+from_json_file	The_Big_Sleep_Customized_NMKD_Public.py	/^    def from_json_file(cls, json_file):$/;"	m	class:BigGANConfig
+from_pretrained	The_Big_Sleep_Customized_NMKD_Public.py	/^    def from_pretrained(cls, pretrained_model_name_or_path, cache_dir=None, *inputs, **kwargs):$/;"	m	class:BigGAN
+gallery	The_Big_Sleep_Customized_NMKD_Public.py	/^def gallery(array, ncols=2):$/;"	f
+get_all	The_Big_Sleep_Customized_NMKD_Public.py	/^def get_all(img):$/;"	f
+get_file_extension	The_Big_Sleep_Customized_NMKD_Public.py	/^def get_file_extension(path, dot=True, lower=True):$/;"	f
+get_from_cache	The_Big_Sleep_Customized_NMKD_Public.py	/^def get_from_cache(url, cache_dir=None):$/;"	f
+gpu	The_Big_Sleep_Customized_NMKD_Public.py	/^gpu = !nvidia-smi --query-gpu=gpu_name --format=csv$/;"	v
+http_get	The_Big_Sleep_Customized_NMKD_Public.py	/^def http_get(url, temp_file):$/;"	f
+im_shape	The_Big_Sleep_Customized_NMKD_Public.py	/^  im_shape = [512, 512, 3]$/;"	v
+im_shape	The_Big_Sleep_Customized_NMKD_Public.py	/^im_shape = [512, 512, 3]$/;"	v
+itersPerSample	The_Big_Sleep_Customized_NMKD_Public.py	/^itersPerSample =  500 #@param{type:"number"}$/;"	v
+itt	The_Big_Sleep_Customized_NMKD_Public.py	/^    itt = 0$/;"	v
+itt	The_Big_Sleep_Customized_NMKD_Public.py	/^itt = 0$/;"	v
+lats	The_Big_Sleep_Customized_NMKD_Public.py	/^    lats = Pars().cuda()$/;"	v
+lats	The_Big_Sleep_Customized_NMKD_Public.py	/^lats = Pars().cuda()$/;"	v
+logger	The_Big_Sleep_Customized_NMKD_Public.py	/^logger = logging.getLogger(__name__)  # pylint: disable=invalid-name$/;"	v
+model	The_Big_Sleep_Customized_NMKD_Public.py	/^model = BigGAN.from_pretrained('biggan-deep-512')$/;"	v
+model	The_Big_Sleep_Customized_NMKD_Public.py	/^model = model.cuda().eval()$/;"	v
+nn	The_Big_Sleep_Customized_NMKD_Public.py	/^import torch.nn as nn$/;"	I
+nom	The_Big_Sleep_Customized_NMKD_Public.py	/^    nom = torchvision.transforms.Normalize((0.48145466, 0.4578275, 0.40821073), (0.26862954, 0.2/;"	v
+nom	The_Big_Sleep_Customized_NMKD_Public.py	/^nom = torchvision.transforms.Normalize((0.48145466, 0.4578275, 0.40821073), (0.26862954, 0.26130/;"	v
+now	The_Big_Sleep_Customized_NMKD_Public.py	/^  now = datetime.datetime.now()$/;"	v
+nowStr	The_Big_Sleep_Customized_NMKD_Public.py	/^  nowStr = now.strftime("%Y-%m-%d %H-%M-%S")$/;"	v
+np	The_Big_Sleep_Customized_NMKD_Public.py	/^import numpy as np$/;"	I
+one_hot_from_int	The_Big_Sleep_Customized_NMKD_Public.py	/^def one_hot_from_int(int_or_list, batch_size=1):$/;"	f
+optimizer	The_Big_Sleep_Customized_NMKD_Public.py	/^    optimizer = torch.optim.Adam(lats.parameters(), .07)$/;"	v
+optimizer	The_Big_Sleep_Customized_NMKD_Public.py	/^optimizer = torch.optim.Adam(lats.parameters(), .07)$/;"	v
+perceptor	The_Big_Sleep_Customized_NMKD_Public.py	/^perceptor, preprocess = clip.load('ViT-B\/32')$/;"	v
+plt	The_Big_Sleep_Customized_NMKD_Public.py	/^import matplotlib.pyplot as plt$/;"	I
+preprocess	The_Big_Sleep_Customized_NMKD_Public.py	/^perceptor, preprocess = clip.load('ViT-B\/32')$/;"	v
+print_freq	The_Big_Sleep_Customized_NMKD_Public.py	/^print_freq = 50 #@param{type:"number"}$/;"	v
+prompt	The_Big_Sleep_Customized_NMKD_Public.py	/^prompt = promptInput$/;"	v
+promptInput	The_Big_Sleep_Customized_NMKD_Public.py	/^promptInput = "A Surreal Painting" #@param{type:"string"}$/;"	v
+promptInput	The_Big_Sleep_Customized_NMKD_Public.py	/^promptInput = "shockwave through the continuum of time" #@param{type:"string"}$/;"	v
+promptList	The_Big_Sleep_Customized_NMKD_Public.py	/^promptList = promptInput.split("\/")$/;"	v
+read_set_from_file	The_Big_Sleep_Customized_NMKD_Public.py	/^def read_set_from_file(filename):$/;"	f
+s3_etag	The_Big_Sleep_Customized_NMKD_Public.py	/^def s3_etag(url):$/;"	f
+s3_get	The_Big_Sleep_Customized_NMKD_Public.py	/^def s3_get(url, temp_file):$/;"	f
+s3_request	The_Big_Sleep_Customized_NMKD_Public.py	/^def s3_request(func):$/;"	f
+safePromptInput	The_Big_Sleep_Customized_NMKD_Public.py	/^  safePromptInput = re.sub('[^\\w\\-_\\. ]', '_', truncPromptInput)$/;"	v
+sampleCount	The_Big_Sleep_Customized_NMKD_Public.py	/^sampleCount =  40 #@param{type:"number"}$/;"	v
+savePath	The_Big_Sleep_Customized_NMKD_Public.py	/^  savePath = os.path.join(drivePath, folderName)$/;"	v
+save_imgs	The_Big_Sleep_Customized_NMKD_Public.py	/^save_imgs = False #@param{type:"boolean"}$/;"	v
+sideX	The_Big_Sleep_Customized_NMKD_Public.py	/^  sideX, sideY, channels = im_shape$/;"	v
+sideX	The_Big_Sleep_Customized_NMKD_Public.py	/^sideX, sideY, channels = im_shape$/;"	v
+sideY	The_Big_Sleep_Customized_NMKD_Public.py	/^  sideX, sideY, channels = im_shape$/;"	v
+sideY	The_Big_Sleep_Customized_NMKD_Public.py	/^sideX, sideY, channels = im_shape$/;"	v
+sn_embedding	The_Big_Sleep_Customized_NMKD_Public.py	/^def sn_embedding(eps=1e-12, **kwargs):$/;"	f
+snconv2d	The_Big_Sleep_Customized_NMKD_Public.py	/^def snconv2d(eps=1e-12, **kwargs):$/;"	f
+snlinear	The_Big_Sleep_Customized_NMKD_Public.py	/^def snlinear(eps=1e-12, **kwargs):$/;"	f
+split_s3_path	The_Big_Sleep_Customized_NMKD_Public.py	/^def split_s3_path(url):$/;"	f
+start_time	The_Big_Sleep_Customized_NMKD_Public.py	/^start_time = time.time()$/;"	v
+t	The_Big_Sleep_Customized_NMKD_Public.py	/^    t = perceptor.encode_text(tx.cuda()).detach().clone()$/;"	v
+t	The_Big_Sleep_Customized_NMKD_Public.py	/^t = perceptor.encode_text(tx.cuda()).detach().clone()$/;"	v
+th	The_Big_Sleep_Customized_NMKD_Public.py	/^  th = plt.hist(lats()[0].detach().cpu().numpy().tolist())$/;"	v
+these	The_Big_Sleep_Customized_NMKD_Public.py	/^  these = tuple((lats()[0][:1].expand(32, -1), lats()[1][:1].expand(32, -1)))$/;"	v
+to_dict	The_Big_Sleep_Customized_NMKD_Public.py	/^    def to_dict(self):$/;"	m	class:BigGANConfig
+to_json_string	The_Big_Sleep_Customized_NMKD_Public.py	/^    def to_json_string(self):$/;"	m	class:BigGANConfig
+torch_version_suffix	The_Big_Sleep_Customized_NMKD_Public.py	/^    torch_version_suffix = ""$/;"	v
+torch_version_suffix	The_Big_Sleep_Customized_NMKD_Public.py	/^    torch_version_suffix = "+cu100"$/;"	v
+torch_version_suffix	The_Big_Sleep_Customized_NMKD_Public.py	/^    torch_version_suffix = "+cu101"$/;"	v
+train	The_Big_Sleep_Customized_NMKD_Public.py	/^def train(epoch, i):$/;"	f
+truncPromptInput	The_Big_Sleep_Customized_NMKD_Public.py	/^  truncPromptInput = (promptInput[:50] + '..') if len(promptInput) > 50 else promptInput$/;"	v
+tx	The_Big_Sleep_Customized_NMKD_Public.py	/^  tx = clip.tokenize(f'''{currentPrompt}''')$/;"	v
+tx	The_Big_Sleep_Customized_NMKD_Public.py	/^tx = clip.tokenize(f'''{prompt}''')$/;"	v
+url_to_filename	The_Big_Sleep_Customized_NMKD_Public.py	/^def url_to_filename(url, etag=None):$/;"	f
+wrapper	The_Big_Sleep_Customized_NMKD_Public.py	/^    def wrapper(url, *args, **kwargs):$/;"	f	function:s3_request	file:
